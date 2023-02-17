@@ -1,0 +1,47 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+}
+.caixa{
+    margin: 5em auto;
+}
+main{
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;    
+    width: 285px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+}
+
+main .qr-code{
+    width: 285px;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.texto{
+    text-align: center;
+    margin: auto;
+}
+
+.superior{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
