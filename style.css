@@ -1,18 +1,20 @@
-*{
+* {
     font-family: 'Outfit', sans-serif;
 }
 
-body{
+body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.caixa{
-    margin: 5em auto;
-}
-main{
+
+main {
     background-color: white;
     border-radius: 1em;
-    padding: 1em;    
+    padding: 1em;
     width: 285px;
     height: auto;
     margin: 0 auto;
@@ -20,23 +22,23 @@ main{
     flex-flow: column;
 }
 
-main .qr-code{
+main .qr-code {
     width: 285px;
     height: auto;
     border-radius: 0.5em;
 }
 
-.texto{
+.texto {
     text-align: center;
     margin: auto;
 }
 
-.superior{
+.superior {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    color:hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
 }
 
 p {
